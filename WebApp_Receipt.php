@@ -2,15 +2,8 @@
 // index.php
 // Web App CRUD Resit - PHP + Bootstrap (Mobile Friendly)
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-
 // Connect to Database
 require_once 'connection_work.php';
-
-file_put_contents("WebAppReceipt_ping.log", date('Y-m-d H:i:s') . " - webhook triggered\n", FILE_APPEND);
 
 if (!$conn) {
 	throw new Exception("Connection to Database not exist.");
