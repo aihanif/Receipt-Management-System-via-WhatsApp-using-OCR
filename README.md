@@ -47,13 +47,13 @@ This project is a complete web-based receipt management system that allows users
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/receipt-whatsapp-ocr.git
-   cd receipt-whatsapp-ocr
+   git clone https://github.com/aihanif/Receipt-Management-System-via-WhatsApp-using-OCR.git
+   cd Receipt-Management-System-via-WhatsApp-using-OCR
 
-MySQL Table
+### MySQL Table
 Create a table named TBL_Receipt with the following structure:
 
-sql
+### sql
 CREATE TABLE TBL_Receipt (
   ID INT PRIMARY KEY AUTO_INCREMENT,
   Header VARCHAR(1000),
@@ -67,7 +67,7 @@ CREATE TABLE TBL_Receipt (
 );
 
 
-Testing
+### Testing
 1)Send a receipt image to your Twilio WhatsApp number
 ![whatsap-resit](https://github.com/user-attachments/assets/ca1911a2-4128-41fe-91c1-819d8bf3b43c)
 2)Data will be extracted and stored in your database
@@ -75,9 +75,9 @@ Testing
 3)Open WebApp_Receipt.php to view, add, edit or delete records
 ![image](https://github.com/user-attachments/assets/625d32af-9620-4f42-bc81-18dd0d63fc16)
 
-Author
+### Author
 Developed by Hanif Wahab
 Feel free to contribute, fork or open an issue!
 
-License
+### License
 This project is open-source and available under the MIT License.
