@@ -69,7 +69,7 @@ CREATE TABLE TBL_Receipt (
 
 Testing
 1)Send a receipt image to your Twilio WhatsApp number
-![whatsap-resit](https://github.com/user-attachments/assets/6fe04a46-30f3-4bfe-a646-1b01b98b5953)
+![whatsap-resit](https://github.com/user-attachments/assets/ca1911a2-4128-41fe-91c1-819d8bf3b43c)
 2)Data will be extracted and stored in your database
 ![image](https://github.com/user-attachments/assets/50fa3973-435b-4ffb-a3ee-0d709bf1fd0d)
 3)Open WebApp_Receipt.php to view, add, edit or delete records
